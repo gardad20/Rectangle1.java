@@ -1,7 +1,6 @@
 /**
  * This class implement the rectangle node with standard getters and setters
  * Note that compareTo method should be designed here.
- *
  */
 
 import java.awt.*;
@@ -64,6 +63,11 @@ public class MyRectangle implements Comparable<MyRectangle> {
 
     public String getName(){
         return name;
+    }
+
+    //gets the area of a rectangle using A=w*h
+    public int getArea(){
+        return w*h;
     }
 
     //Overrides the Comparable interface compareTo method
